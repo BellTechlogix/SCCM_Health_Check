@@ -1,0 +1,58 @@
+<Settings>
+	<CentralSettings>
+		<SCCMCentralDBName>CM_CRW</SCCMCentralDBName>
+		<SCCMCentralDBServerName>JAXSCCM02</SCCMCentralDBServerName>
+	</CentralSettings>
+
+	<SCCMSettings>
+		<ProjectName>Crowley</ProjectName>	
+		<OutputFileName>ConfigMgr_Servers_Health_Check_Reports</OutputFileName>
+		<strServers>JAXSCCM02,ANCA2-DPJ00T6JT,TEGA1-DPJ00S3VS,SVAA4-DPJ00TLZ7,SVAA3-DPJ010EPM,STXT1-DPJ00S3Q0,STTT2-DPJ00S400,STTT1-DPJ00T6R6,SPSA1-DPJ00TLXB,SPOA1-DPJ00T6JX,SJUT2-DPJ00S45W,SJUT1-DPJ00S42E,SEA-DPJ010ENE,PTZA1-DPJ00TM0S,PTYT3-DPJ00TM0U,PTYA1-DPJ00TLYZ,PRTEV-DPJ010EHR,PHLT2-DPJ00S42Z,DJNA1-DPJ010EN2,FAIA1-DPJ010EGJ,GTYA3-DPJ00TM0G,JAX30-DPJ00T6N0,JAXJP-DPJ00T697,JAXRG-DPG007AD8,VDZA1-DPG007AD1,JAXRO-DPG007AXR,JAXSC-DPJ010EF8,JNUA1-DPJ010EFJ,KTNA1-DPJ00CTP7,MIACI-DPJ00CTQH,NORA1-DPG007497,PAQA1-DPJ010EKB,YTVN1-DPJ00S48B,SJOA3-DPJ00TM02,SJOA4-DPJ00TM0D,SJOA2-DPJ00TM1Z,GTYA1-DPJ00S41M,</strServers>
+		<strMPServers>JAXSCCM02</strMPServers>
+		<strServicesServers>JAXSCCM02,ANCA2-DPJ00T6JT,TEGA1-DPJ00S3VS,SVAA4-DPJ00TLZ7,SVAA3-DPJ010EPM,STXT1-DPJ00S3Q0,STTT2-DPJ00S400,STTT1-DPJ00T6R6,SPSA1-DPJ00TLXB,SPOA1-DPJ00T6JX,SJUT2-DPJ00S45W,SJUT1-DPJ00S42E,SEA-DPJ010ENE,PTZA1-DPJ00TM0S,PTYT3-DPJ00TM0U,PTYA1-DPJ00TLYZ,PRTEV-DPJ010EHR,PHLT2-DPJ00S42Z,DJNA1-DPJ010EN2,FAIA1-DPJ010EGJ,GTYA3-DPJ00TM0G,JAX30-DPJ00T6N0,JAXJP-DPJ00T697,JAXRG-DPG007AD8,VDZA1-DPG007AD1,JAXRO-DPG007AXR,JAXSC-DPJ010EF8,JNUA1-DPJ010EFJ,KTNA1-DPJ00CTP7,MIACI-DPJ00CTQH,NORA1-DPG007497,PAQA1-DPJ010EKB,YTVN1-DPJ00S48B,SJOA3-DPJ00TM02,SJOA4-DPJ00TM0D,SJOA2-DPJ00TM1Z,GTYA1-DPJ00S41M,</strServicesServers>
+		<SiteCode>CRW</SiteCode>
+		<SMSProviderServerName>JAXSCCM02</SMSProviderServerName>
+		<SMSDBServerName>JAXSCCM02</SMSDBServerName>		
+	</SCCMSettings>
+
+	<EmailSettings>
+		<TriggerMail>No</TriggerMail>
+		<SMTPServer>SMTP_Server_Name</SMTPServer>
+		<FromAddress>sccmhealthcheckalert@domainname.com</FromAddress>
+		<ToAddress></ToAddress>
+		<CCAddress></CCAddress>
+		<BCCAddress></BCCAddress>
+	</EmailSettings>
+
+	<HealthCheckCustomSettings>
+		<CheckServersAvailabilityRpt>Yes</CheckServersAvailabilityRpt>
+		<CheckServersDiskSpaceRpt>Yes</CheckServersDiskSpaceRpt>
+		<CheckServersMPRpt>Yes</CheckServersMPRpt>
+		<CheckSiteServersServicesRpt>Yes</CheckSiteServersServicesRpt>
+		<CheckSQLServerServicesRpt>Yes</CheckSQLServerServicesRpt>
+		<CheckBackupsRpt>Yes</CheckBackupsRpt>
+		<CheckInboxRpt>Yes</CheckInboxRpt>
+		<CheckIssueSiteServersRpt>Yes</CheckIssueSiteServersRpt>
+		<CheckCompRpt>Yes</CheckCompRpt>
+		<CheckWaitingContentRpt>Yes</CheckWaitingContentRpt>
+		<GenerateCSVRpt>Yes</GenerateCSVRpt>	    
+	</HealthCheckCustomSettings>
+
+	<DefaultSettings>
+		<InboxWarningCount>1000</InboxWarningCount>
+		<InboxCriticalCount>5000</InboxCriticalCount>
+		<WarningDiskSpacePercentage>15</WarningDiskSpacePercentage>
+		<CriticalDiskSpacePercentage>10</CriticalDiskSpacePercentage>
+		<CheckSiteBackup>Yes</CheckSiteBackup>
+		<CheckDBBackup>Yes</CheckDBBackup>	
+		<HistoryRpt>-30</HistoryRpt>
+	</DefaultSettings>
+
+	<HTMLSettings>
+		<HeaderBGColor>#425563</HeaderBGColor>
+		<FooterBGColor>#425563</FooterBGColor>
+		<TableHeaderBGColor>#01A982</TableHeaderBGColor>
+		<TableHeaderRowBGColor>#CCCCCC</TableHeaderRowBGColor>
+		<TextColor>white</TextColor>
+	</HTMLSettings>		
+</Settings>
