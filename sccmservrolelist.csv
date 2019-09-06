@@ -1,0 +1,99 @@
+﻿Role,Server Name
+SMS Distribution Point,ANCA2-DPJ00T6JT.crowley.com
+SMS State Migration Point,ANCA2-DPJ00T6JT.crowley.com
+SMS Distribution Point,DJNA1-DPJ010EN2.crowley.com
+SMS Distribution Point,FAIA1-DPJ010EGJ.crowley.com
+SMS Distribution Point,GTYA1-DPJ00S41M.crowley.com
+SMS State Migration Point,GTYA1-DPJ00S41M.crowley.com
+SMS Distribution Point,GTYA3-DPJ00TM0G.crowley.com
+SMS State Migration Point,GTYA3-DPJ00TM0G.crowley.com
+SMS Distribution Point,GTYAT-DPJ00S43U.crowley.com
+SMS State Migration Point,GTYAT-DPJ00S43U.crowley.com
+SMS Distribution Point,GTYT1-DPJ00S44J.crowley.com
+SMS State Migration Point,GTYT1-DPJ00S44J.crowley.com
+SMS Distribution Point,JAX30-DPJ00T6N0.CROWLEY.COM
+SMS State Migration Point,JAX30-DPJ00T6N0.CROWLEY.COM
+SMS Distribution Point,JAXJP-DPJ00T697.crowley.com
+SMS State Migration Point,JAXJP-DPJ00T697.crowley.com
+SMS Distribution Point,JAXRG-DPG007AD8.crowley.com
+SMS State Migration Point,JAXRG-DPG007AD8.crowley.com
+SMS Distribution Point,JAXRO-DPG007AXR.crowley.com
+SMS State Migration Point,JAXRO-DPG007AXR.crowley.com
+SMS SQL Server,JAXSCCM02.crowley.com
+SMS Distribution Point,JAXSCCM02.crowley.com
+SMS Site Server,JAXSCCM02.crowley.com
+SMS Management Point,JAXSCCM02.crowley.com
+SMS State Migration Point,JAXSCCM02.crowley.com
+SMS Provider,JAXSCCM02.crowley.com
+SMS Software Update Point,JAXSCCM02.crowley.com
+AI Update Service Point,JAXSCCM02.crowley.com
+SMS SRS Reporting Point,JAXSCCM02.crowley.com
+SMS Application Web Service,JAXSCCM02.crowley.com
+SMS Portal Web Site,JAXSCCM02.crowley.com
+SMS Dmp Connector,JAXSCCM02.crowley.com
+SMS Notification Server,JAXSCCM02.crowley.com
+SMS Distribution Point,JAXSC-DPJ010EF8.crowley.com
+SMS State Migration Point,JAXSC-DPJ010EF8.crowley.com
+SMS Distribution Point,JNUA1-DPJ011UYM.crowley.com
+SMS State Migration Point,JNUA1-DPJ011UYM.crowley.com
+SMS Distribution Point,KTNA1-DPJ00CTP7.crowley.com
+SMS Distribution Point,MANA1-DPJ00S3VJ.crowley.com
+SMS State Migration Point,MANA1-DPJ00S3VJ.crowley.com
+SMS Distribution Point,MANT1-DPJ00TLWR.crowley.com
+SMS State Migration Point,MANT1-DPJ00TLWR.crowley.com
+SMS Distribution Point,MIACI-DPJ00CTQH.crowley.com
+SMS State Migration Point,MIACI-DPJ00CTQH.crowley.com
+SMS Distribution Point,NORA1-DPG007497.crowley.com
+SMS State Migration Point,NORA1-DPG007497.crowley.com
+SMS Distribution Point,PAQA1-DPJ010EKB.crowley.com
+SMS State Migration Point,PAQA1-DPJ010EKB.crowley.com
+SMS Distribution Point,PHLT2-DPJ00S42Z.crowley.com
+SMS State Migration Point,PHLT2-DPJ00S42Z.crowley.com
+SMS Distribution Point,PRTEV-DPJ010EHR.crowley.com
+SMS State Migration Point,PRTEV-DPJ010EHR.crowley.com
+SMS Distribution Point,PTYA1-DPJ00TLYZ.crowley.com
+SMS State Migration Point,PTYA1-DPJ00TLYZ.crowley.com
+SMS Distribution Point,PTYT3-DPJ00TM0U.crowley.com
+SMS State Migration Point,PTYT3-DPJ00TM0U.crowley.com
+SMS Distribution Point,PTZA1-DPJ00TM0S.crowley.com
+SMS State Migration Point,PTZA1-DPJ00TM0S.crowley.com
+SMS Distribution Point,SEA-DPJ010ENE.crowley.com
+SMS State Migration Point,SEA-DPJ010ENE.crowley.com
+SMS Distribution Point,SJOA2-DPJ00TM1Z.crowley.com
+SMS State Migration Point,SJOA2-DPJ00TM1Z.crowley.com
+SMS Distribution Point,SJOA3-DPJ00TM02.crowley.com
+SMS State Migration Point,SJOA3-DPJ00TM02.crowley.com
+SMS Distribution Point,SJOA4-DPJ00TMOD.crowley.com
+SMS State Migration Point,SJOA4-DPJ00TMOD.crowley.com
+SMS Distribution Point,SJOT1-DPJ00TLY0.crowley.com
+SMS State Migration Point,SJOT1-DPJ00TLY0.crowley.com
+SMS Distribution Point,SJUT1-DPJ00S42E.crowley.com
+SMS State Migration Point,SJUT1-DPJ00S42E.crowley.com
+SMS Distribution Point,SJUT2-DPJ00S45W.crowley.com
+SMS State Migration Point,SJUT2-DPJ00S45W.crowley.com
+SMS Distribution Point,SPOA1-DPJ00T6JX.crowley.com
+SMS State Migration Point,SPOA1-DPJ00T6JX.crowley.com
+SMS Distribution Point,SPSA1-DPJ00TLXB.crowley.com
+SMS State Migration Point,SPSA1-DPJ00TLXB.crowley.com
+SMS Distribution Point,SPSA2-DPJ00TLYS.Crowley.com
+SMS State Migration Point,SPSA2-DPJ00TLYS.Crowley.com
+SMS Distribution Point,STTT1-DPJ00T6R6.crowley.com
+SMS State Migration Point,STTT1-DPJ00T6R6.crowley.com
+SMS Distribution Point,STTT2-DPJ00S400.crowley.com
+SMS State Migration Point,STTT2-DPJ00S400.crowley.com
+SMS Distribution Point,STXT1-DPJ00S3Q0.crowley.com
+SMS State Migration Point,STXT1-DPJ00S3Q0.crowley.com
+SMS Distribution Point,SVAA3-DPJ010EPM.crowley.com
+SMS State Migration Point,SVAA3-DPJ010EPM.crowley.com
+SMS Distribution Point,SVAA4-DPJ00TLZ7.Crowley.com
+SMS State Migration Point,SVAA4-DPJ00TLZ7.Crowley.com
+SMS Distribution Point,SVAA5-DPJ00FQ5D.crowley.com
+SMS State Migration Point,SVAA5-DPJ00FQ5D.crowley.com
+SMS Distribution Point,SVAA6-DPJ00TLYC.crowley.com
+SMS State Migration Point,SVAA6-DPJ00TLYC.crowley.com
+SMS Distribution Point,TEGA1-DPJ00S3VS.crowley.com
+SMS State Migration Point,TEGA1-DPJ00S3VS.crowley.com
+SMS Distribution Point,VDZA1-DPG007AD1.crowley.com
+SMS State Migration Point,VDZA1-DPG007AD1.crowley.com
+SMS Distribution Point,YTVN1-DPJ00S48B.crowley.com
+SMS State Migration Point,YTVN1-DPJ00S48B.crowley.com

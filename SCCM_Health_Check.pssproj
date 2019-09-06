@@ -27,10 +27,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="ConfigFile.xml" />
+    <Content Include="configs.csv" />
     <Content Include="Resources.resx" />
+    <Content Include="RunFirst.bat" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RunFirst.ps1" />
+    <Compile Include="Get-Servers.ps1" />
+    <Compile Include="RunFirst-static.ps1" />
+    <Compile Include="RunFirst-interactive.ps1" />
     <Compile Include="SCCM_Health_Check.ps1" />
   </ItemGroup>
   <ItemGroup>
