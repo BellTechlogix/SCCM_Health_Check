@@ -277,3 +277,11 @@ $config =
 
 #$path = Get-Folder -Description "Select Folder to place Config file"
 $config|Out-File $dir"\"ConfigFile.xml
+
+
+AckBox -type Exclamation -button OK -title "Information Verification" -body "Your Generated Configuration File will open now, Please Verify the servers are correct"
+Start-Process notepad $dir\ConfigFile.xml
+
+$complete = AckBox -type Question -button YesNo "File Correct" -body "To the best of your knowledge do the configured details look correct?"
+
+If($complete -eq "No"){AckBox -type Exclamation -button OK -title "Failed" -body "Please verify that your configs.csv contains the correct information then attempt to rerun the tool, if it is still incorrect after re-run please contact your Administrator"}
