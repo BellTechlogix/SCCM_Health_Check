@@ -2,6 +2,7 @@
 # Get_Servers.ps1
 #
 
+Write-Host "Building SCCM Server List"
 $SMSProvider = get-wmiobject sms_providerlocation -namespace root\sms -filter “ProviderForLocalSite = True”
 $SiteCode = $SMSProvider.SiteCode
 $siteserver = $SMSProvider.__SERVER
@@ -619,3 +620,4 @@ If ($ListAllInformation){
   }
 }
 $SiteRolesTable|export-csv $dir\sccmservrolelist.csv -NoTypeInformation
+Write-Host "Done Building SCCM Server List"

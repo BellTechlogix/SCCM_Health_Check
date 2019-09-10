@@ -11,10 +11,12 @@ $OKColor = "Green"
 $WarningColor = "Orange"
 $CriticalColor = "Red"
 $OfflineColor = "DarkRed"
-$ToolName = "ConfigMgr_Weekly_Servers_Health_Check_Reports"
+$ToolName = "ConfigMgr_Weekly_Servers_Health_Check_Reports-Test"
 #$OutputPath = split-path -parent $MyInvocation.MyCommand.Definition
 #$OutputPath = "F:\Scripts\$ToolName"
-$OutputPath = "F:\Scripts\$ToolName"
+$scriptpath = $MyInvocation.MyCommand.Path
+$dir = Split-Path $scriptpath
+$OutputPath = "$dir"
 #$OutputPath = "F:\Scripts\$ToolName"
 #************** Check and Create Historical Folder Structure **********
 $HistoricalReportsDir = "$OutputPath\Historical_Reports"
@@ -1831,17 +1833,17 @@ Function InboxRpt
 # Run Main Report
 Get-WeeklyHTMLReport $args[0]
 
-Copy-Item -force 'F:\Scripts\ConfigMgr_Weekly_Servers_Health_Check_Reports\ConfigMgr_Weekly_Servers_Health_Check_Reports.html' '\\win10-bt\c$\belltech\SCCMHealthReports'
+#Copy-Item -force 'F:\Scripts\ConfigMgr_Weekly_Servers_Health_Check_Reports\ConfigMgr_Weekly_Servers_Health_Check_Reports.html' '\\win10-bt\c$\belltech\SCCMHealthReports'
 
-$recipients = @("Kristopher <kroy@belltechlogix.com>","Tim <twheeler@belltechlogix.com>","Scott <sputnam@belltechlogix.com>","Chris <CAvery@belltechlogix.com>","Jay <Melvin.Davis@crowley.com>","James <James.Hudgens@crowley.com>")
+$recipients = @("Kristopher <kroy@belltechlogix.com>")
 #$recipients = @("Kristopher <kroy@belltechlogix.com>","Tim <twheeler@belltechlogix.com>")
 #$htmlforEmail = @(Get-Content C:\belltech\SCCMHealthReports\ConfigMgr_Weekly_Servers_Health_Check_Reports.html)
 
 $html = New-Object -ComObject "HTMLFile";
-$source = Get-Content -Path 'F:\Scripts\ConfigMgr_Weekly_Servers_Health_Check_Reports\ConfigMgr_Weekly_Servers_Health_Check_Reports.html' -Raw;
+$source = Get-Content -Path $Dir'\ConfigMgr_Weekly_Servers_Health_Check_Reports.html' -Raw;
 $html.IHTMLDocument2_write($source);
 
 #$recipients = "Jason <jcooper1@belltechlogix.com>"
-Send-MailMessage -from SCCMReportsKRoy@crowley.com -to $recipients -subject "Crowley SCCM Health Report - Weekly" -smtpserver mail.crowley.com  -BodyAsHtml $source -Attachments 'F:\Scripts\ConfigMgr_Weekly_Servers_Health_Check_Reports\ConfigMgr_Weekly_Servers_Health_Check_Reports.html'
+Send-MailMessage -from SCCMReports@crowley.com -to $recipients -subject "Crowley SCCM Health Report - Test" -smtpserver mail.crowley.com  -BodyAsHtml $source -Attachments $Dir'\ConfigMgr_Weekly_Servers_Health_Check_Reports.html'
 
 #Send-MailMessage -from TestReporting@crowley.com -to $recipients -subject "Test Send" -smtpserver mail.crowley.com
